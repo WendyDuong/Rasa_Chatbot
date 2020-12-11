@@ -1,4 +1,10 @@
 import mysql.connector as mysql
+from typing import Any, Text, Dict, List, Union
+from rasa_sdk import Action, Tracker
+# from rasa_sdk.events import EventType
+from rasa_sdk.events import SlotSet
+from rasa_sdk.executor import CollectingDispatcher
+from rasa_sdk.forms import FormAction, FormValidationAction
 
 
 def dataupdate(student_group, input_activity, input_outside, input_workingtime, input_environment, input_company,
