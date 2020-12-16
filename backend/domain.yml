@@ -78,15 +78,15 @@ responses:
         (Ja/Nein)
   utter_choose_group:
     - buttons:
-        - payload: /mint_student{{"student_group":"MINT Studetenten"}}
+        - payload: /mint_student
           title: MINT-Student
-        - payload: /gender_female{{"student_group":"weibliches Geschlecht"}}
+        - payload: /gender_female
           title: Geschlecht-weiblich
-        - payload: /first_generation{{"student_group":"Erste Generation"}}
+        - payload: /first_generation
           title: First Generation
-        - payload: /migration_background{{"student_group":"Migrationshintergrund"}}
+        - payload: /migration_background
           title: Migrationshintergrund
-        - payload: /control_group{{"student_group":"Andere Gruppe"}}
+        - payload: /control_group
           title: Anderer
       text: "Du hast schon die Teilnahme- und die Datenschutzerklärung bestätigt!\n\
       \ Zur welche Gruppe der Studierenden gehörst Du?"
